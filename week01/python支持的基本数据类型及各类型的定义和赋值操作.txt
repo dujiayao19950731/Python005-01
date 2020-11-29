@@ -1,0 +1,64 @@
+一、None：
+赋值	a = None
+	print(a)
+输出	None
+二、布尔值：
+赋值：	a = None
+	a is 'abc' 
+输出：	False
+赋值：	b = 'abc'
+	b is 'abc'
+输出：	True
+三、整型：
+赋值：	a =2
+	print(a)
+	print(type(a))
+输出：	2
+	<class 'int'>
+四、浮点型：
+赋值：	a = 1.0
+	print(a)
+	print(type(a))
+输出：	1.0
+	<class 'float'>
+五、复数：
+赋值：	a = 2.0 + 0.5j
+	print(a)
+	print(a.real)
+	print(a.imag)
+	print(type(a))
+输出：	(2+0.5j)
+	2.0
+	0.5
+	<class 'complex'>
+六、字符串：
+赋值：	a = "abc"
+	print(a)
+	print(type(a))
+输出：	abc
+	<class 'str'>
+七、列表：
+赋值：	a = ['a','b','c']
+	print(a)
+	print(type(a))
+赋值：	['a','b','c']
+	<class 'list'>
+八、元组：
+赋值：	a = ('a','b','c')
+	print(a)
+	print(type(a))
+输出：	('a', 'b', 'c')
+	<class 'tuple'>
+九、字典：
+赋值：	a = {"a":1,"b":2,"c":3}
+	print(a)
+	print(type(a))
+输出：	{'a': 1, 'b': 2, 'c': 3}
+	<class 'dict'>
+十、函数：
+定义：	def test_fuc():
+	    print('I love python')
+调用：	test_fuc()
+	print(type(test_fuc))
+输出：	I love python
+	<class 'function'>
